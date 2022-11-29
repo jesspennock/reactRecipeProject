@@ -1,0 +1,135 @@
+/* --------- This is CSS Reset Code --------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* --------- Begin your CSS Below here --------- */
+.App {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+    justify-content: space-between;
+}
+header 	{
+
+	height: 60px;
+	background-color: rgb(230, 117, 76);
+	display: flex;
+	align-items: center;
+	color: whitesmoke;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 10px;
+	font-size: 24px;
+}
+
+header button {
+	background-color: rgb(230, 117, 76);
+	border: none;
+	font-size: 20px;
+	padding: 10px;
+	color: whitesmoke;
+}
+
+header button:hover{
+	color: #ff7a59;
+	border: #ff7a59 solid 1px;
+	background:#fff;
+	opacity: 50%;
+  }
+
+  header a.active{
+	
+  }
+footer {
+	height: 150px;
+	background-color: rgb(88, 88, 88);
+	color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 18px;
+}
+
+footer h5 {
+	text-align: center;
+	margin: 5px;
+}
+
+.footer-links {
+	color: rgb(35, 159, 146);
+	display: flex;
+	justify-content: start;
+
+}
+.footer-icon {
+	background-color: rgb(35, 159, 146);
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+.recipe-container {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 20px;
+}
+.recipe-card {
+	background-color: whitesmoke;
+	box-shadow: 1px 7px 5px rgb(212, 212, 212);
+	border: 2px;
+	border-radius: 3px;
+	text-align: center;
+	margin: 10px;
+	width:300px;
+	
+	
+}
+
+.blue-btn {
+    background-color: rgb(35, 159, 146);
+    font-size: 25px;
+    padding: 12px;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.strawberry-cake {
+	width: 100%;
+}
+.searchbar {
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	
+}
+.searchbar-input {
+	background-color: #f0beb2;
+	border: none;
+	border-radius: 20px;
+	font-size: 20px;
+	padding: 10px;
+	width: 300px;
+}
